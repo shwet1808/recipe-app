@@ -1,6 +1,9 @@
 const searchbox = document.querySelector('.searchbox');
 const searchbtn = document.querySelector(".searchbtn");
 const recipeContainer = document.querySelector('.recipe-container');
+const recipeCloseBtn = document.querySelector('.recipe-close-btn');
+const recipeDetailContent = document.querySelector('.recipe-detail-content');
+
 
 
     // for fetching the recipe 
@@ -32,11 +35,15 @@ const recipeContainer = document.querySelector('.recipe-container');
             recipepopup(meal);
         })
 
-
         }); 
-        }
+       }
 
-
+// const openrecipepopup =()=>{
+//     recipeDetailContent.textContent = `
+//     <h2>${meal.strMeal}</h2>
+//     `
+//     recipeDetailContent.parentElement.style.display ="block";
+// }
 
 searchbtn.addEventListener( "click" , (e)=>{
     e.preventDefault();
@@ -45,5 +52,9 @@ searchbtn.addEventListener( "click" , (e)=>{
     // console.log('The Button was clicked');
 });
 
+
+
+// 55:20
+// start from where cross icon is made by font awsome
 
 

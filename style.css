@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(11, 10, 10);
+    background-color: rgb(108, 54, 54);
     color: rgb(244, 236, 236);
     }
 
@@ -66,7 +66,7 @@ body{
 
     .recipe-container{
         text-align: center;
-        /* margin-top: 20px; */
+        margin-top: 20px;
         display: grid;
         grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
         grid-gap: 70px;
@@ -113,6 +113,18 @@ body{
     background-color: #da362a;
     color: #fff;
 }
+
+/* 
+.recipe-details {
+    display: none;
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: bisque;
+
+}   */
 
 .recipe button:hover {
     background-color:#da362a ;  /* Change to red on hover */
